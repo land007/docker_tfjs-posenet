@@ -2,7 +2,7 @@ FROM land007/tfjs-html:latest
 
 MAINTAINER Yiqiu Jia <yiqiujia@hotmail.com>
 
-RUN . $HOME/.nvm/nvm.sh && npm install @tensorflow-models/posenet
+RUN . $HOME/.nvm/nvm.sh && cd / && npm install @tensorflow-models/posenet
 
 #ADD posenet_node /node
 #WORKDIR /node
